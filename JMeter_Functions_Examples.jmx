@@ -82,7 +82,7 @@
           <boolProp name="SUCCESFULL">true</boolProp>
           <stringProp name="RESPONSE_CODE">200</stringProp>
           <stringProp name="RESPONSE_MESSAGE">OK</stringProp>
-          <stringProp name="REQUEST_DATA">&quot;Encode This String&quot; Base64 encoded is...  </stringProp>
+          <stringProp name="REQUEST_DATA">The string &quot;Encode This String&quot; Base64 encoded is...  </stringProp>
           <stringProp name="RESPONSE_DATA">${__base64Encode(Encode This String,encodedString)}</stringProp>
           <stringProp name="RESPONSE_TIME">${__Random(50,500)}</stringProp>
           <stringProp name="LATENCY">${__Random(1,50)}</stringProp>
@@ -96,7 +96,7 @@
           <boolProp name="SUCCESFULL">true</boolProp>
           <stringProp name="RESPONSE_CODE">200</stringProp>
           <stringProp name="RESPONSE_MESSAGE">OK</stringProp>
-          <stringProp name="REQUEST_DATA">&quot;RGVjb2RlIFRoaXMgQmFzZTY0IFN0cmluZw==&quot; Base64 decoded is... </stringProp>
+          <stringProp name="REQUEST_DATA">The encoded string &quot;RGVjb2RlIFRoaXMgQmFzZTY0IFN0cmluZw==&quot; Base64 decoded is... </stringProp>
           <stringProp name="RESPONSE_DATA">${__base64Decode(RGVjb2RlIFRoaXMgQmFzZTY0IFN0cmluZw\=\=,decodedString)}</stringProp>
           <stringProp name="RESPONSE_TIME">${__Random(50,500)}</stringProp>
           <stringProp name="LATENCY">${__Random(1,50)}</stringProp>
