@@ -68,7 +68,7 @@
           <boolProp name="SUCCESFULL">true</boolProp>
           <stringProp name="RESPONSE_CODE">200</stringProp>
           <stringProp name="RESPONSE_MESSAGE">OK</stringProp>
-          <stringProp name="REQUEST_DATA">Create random email address</stringProp>
+          <stringProp name="REQUEST_DATA">Create a random email address using RandomString</stringProp>
           <stringProp name="RESPONSE_DATA">${__RandomString(10,abcdefghijklmnopqrstuvwxyz)}@gmail.com</stringProp>
           <stringProp name="RESPONSE_TIME">${__Random(50,500)}</stringProp>
           <stringProp name="LATENCY">${__Random(1,50)}</stringProp>
